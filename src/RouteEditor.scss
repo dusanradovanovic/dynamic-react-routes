@@ -1,0 +1,38 @@
+
+.route-editor-component {
+  border: 1px solid #ddd;
+  padding: 10px 20px 30px;
+  border-radius: 3px;
+
+  .title {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    .form-field-input {
+      width: 300px;
+      font-size: 14px;
+      padding: 4px 5px;
+      border: 1px solid #ddd;
+      background-color: #fff !important;
+    }
+
+    .form-field-error {
+      color: #a00;
+      min-height: 20px;
+    }
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 17px;
+    border-radius: 2px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+}
